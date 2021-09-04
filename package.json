@@ -1,0 +1,20 @@
+{
+  "name": "clinica-nutricao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricbatera/clinica-nutricao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricbatera/clinica-nutricao/issues"
+  },
+  "homepage": "https://github.com/ricbatera/clinica-nutricao#readme"
+}
