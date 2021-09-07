@@ -1,0 +1,87 @@
+
+
+/*-------------- Logo -------------- */
+/* Union */
+.complete__logo {
+ position: absolute;
+ left: 18.45%;
+ right: 63.11%;
+ top: 79.63%;
+ bottom: -50%;
+ 
+ background: #C7FDC6;
+ transform: rotate(-180deg);
+}
+
+/* Rectangle 2 */
+.logo{
+ position: absolute;
+ left: 18.45%;
+ right: 63.11%;
+ top: 79.63%;
+ bottom: -0.48%;
+
+ background: #C4C4C4;
+ transform: rotate(-180deg);
+}
+
+/* Rectangle 2.1 */
+.logo__2{
+ position: absolute;
+ left: 12.98%;
+ right: 68.57%;
+ top: 9.26%;
+ bottom: 69.89%;
+
+ background: #C4C4C4;
+ transform: matrix(0, 1, 1, 0, 0, 0);
+}
+/*-------------- Logo-fim -------------- */
+
+/*Button green */
+
+/*------------- Button Primary Button ----------------- */
+.position__button{
+ position: absolute;
+ width: 130px;
+ height: 40px;
+ left: 1489px;
+ top: 10px;
+}
+
+/* Cadastre-se */
+.button__primary {
+ position: absolute;
+ left: 0%;
+ right: 0%;
+ top: 0%;
+ bottom: 0%;
+
+ background: #90FC94;
+ border-radius: 6px;
+}
+
+/* Cadastre-se */
+.text__button {
+ position: absolute;
+ left: 16.15%;
+ right: 15.38%;
+ top: 27.5%;
+ bottom: 27.5%;
+
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 15px;
+ line-height: 18px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: -0.015em;
+
+ color: #000000;
+}
+/*------------- Button Primary Button-fim ----------------- */
+
+/*navbar home*/
+

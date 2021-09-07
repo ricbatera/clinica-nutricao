@@ -1,0 +1,65 @@
+
+
+.label__form{
+ font-size: var(--font-size-p);
+ display: block;
+ margin-bottom: 5px;
+}
+
+.container {
+ display: flex;
+ justify-content: space-around;
+ height: 100vh;
+}
+
+.container section{
+ width: 50%;
+}
+
+.container section:nth-child(1){
+ position: relative;
+ margin-left: 71.55px;
+}
+
+.container section:nth-child(2){
+ background-color: var(--bg-cad-login);
+}
+
+.img__topo{
+ position: absolute;
+ right: 60px;
+ height: 84px;
+ top: 10px;
+}
+
+h2 {
+ font-size: var(--font-size-h1-h2);
+ margin-top: 153px;
+ margin-bottom: 60px;
+ font-weight: 700;
+}
+
+.nome__completo{
+ display: flex;
+}
+
+.div__nome {
+ flex: 1;
+}
+
+.div__sobrenome{
+ flex: 2;
+ margin-left: 51.82px;
+}
+
+form input {
+ width: 100%;
+ padding: 9.5px;
+ margin-bottom: 15px;
+ 
+}
+
+.formulario{
+ margin-right: 40px;
+ padding-right: 88px;
+}
