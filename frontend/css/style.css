@@ -87,3 +87,12 @@ img{
     display: flex;
     align-items: center;
 }
+
+/* apagar depois */
+
+.teste{
+    width: 750px;
+    height: 440px;
+    background: url(https://medical-workers-analyzing-electronic-record_1262-19834.jpg);
+    background-color: #353A39;
+}
