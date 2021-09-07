@@ -31,7 +31,7 @@ app.post('/salva', (req, res) => {
     //console.log(req.body)
     //console.log(req.params)
     console.log(req.body)
-    res.sendStatus(200)
+    //res.sendStatus(200)
 });
 
 // Start Server
