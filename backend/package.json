@@ -2,9 +2,9 @@
   "name": "clinica-nutricao",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "app.js"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/ricbatera/clinica-nutricao/issues"
   },
-  "homepage": "https://github.com/ricbatera/clinica-nutricao#readme"
+  "homepage": "https://github.com/ricbatera/clinica-nutricao#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
