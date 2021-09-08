@@ -1,0 +1,8 @@
+/* COMPONENTES PADRÃO */
+
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    height: 60px;
+}

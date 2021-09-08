@@ -46,3 +46,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html, body{
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
