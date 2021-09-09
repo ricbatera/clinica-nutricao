@@ -1,5 +1,27 @@
 /* COMPONENTES PADRÃO */
+.btn{
+    width: 130px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: var(--color-text-bt-secondary);
+    margin: 0 15px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+.btn:hover{
+    background-color: transparent;
+    color: var(--color-text-bt-terciary);
+    border: 1px solid var(--color-text-bt-terciary);
+    transition: all 0.3s;
+}
 
+.btn-primary{
+    background-color: var(--color-button-secondary);
+}
+.btn-secondary{
+    background-color: var(--color-button-primary);
+}
 
 /* NAVBAR */
 .navbar{
@@ -47,29 +69,6 @@
     display: flex;
 }
 
-.btn{
-    width: 130px;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    color: var(--color-text-bt-secondary);
-    margin: 0 15px;
-    border-radius: 6px;
-    border: 1px solid transparent;
-}
-.btn:hover{
-    background-color: transparent;
-    color: var(--color-text-bt-terciary);
-    border: 1px solid var(--color-text-bt-terciary);
-    transition: all 0.3s;
-}
-
-.btn-primary{
-    background-color: var(--color-button-secondary);
-}
-.btn-secondary{
-    background-color: var(--color-button-primary);
-}
 /* RESPONSIVIDADE DA NAVBAR */
 @media (max-width: 968px){
     .navbar{
@@ -88,4 +87,13 @@
     .login{
         margin: 10px auto;
     }
+}
+
+/* SEÇÃO MAIN */
+main{
+    height: calc(100vh - 60px);
+    background-image: url('../../assets/img/home/bg-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
