@@ -4,5 +4,88 @@
 /* NAVBAR */
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     height: 60px;
+    background-color: var(--bg-navbar-footer);
+    align-items: center;
+}
+
+.brand{
+   display: flex;
+   align-items: center;
+   margin-left: 80px;
+   font-size: 1.777em;
+   color: var(--color-font-brand);
+}
+.brand img{
+   max-height: 30px;
+   margin-right: 11.85px;
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 79.93px;
+    /* height: 60px;
+    align-items: center; */
+}
+
+.menu ul li{
+    margin: 0 20px;
+}
+.menu ul a{
+    color: var(--color-text-bt-terciary);
+}
+.menu ul a:hover{
+    color: var(--color-font-brand);
+    transition: all 0.3s;
+    text-shadow: 0 0 20px #fff;
+}
+
+.login{
+    margin-left: auto;
+    margin-right: 61px;
+    display: flex;
+}
+
+.btn{
+    width: 130px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: var(--color-text-bt-secondary);
+    margin: 0 15px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+.btn:hover{
+    background-color: transparent;
+    color: var(--color-text-bt-terciary);
+    border: 1px solid var(--color-text-bt-terciary);
+    transition: all 0.3s;
+}
+
+.btn-primary{
+    background-color: var(--color-button-secondary);
+}
+.btn-secondary{
+    background-color: var(--color-button-primary);
+}
+/* RESPONSIVIDADE DA NAVBAR */
+@media (max-width: 968px){
+    .navbar{
+        height: 130px;
+        justify-content: center;
+    }
+    .brand{
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0 0 0;
+    }
+    .menu ul{
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .login{
+        margin: 10px auto;
+    }
 }
