@@ -1,0 +1,18 @@
+{
+ "sqltools.connections": [
+  {
+   "pgOptions": {
+    "ssl": {
+     "rejectUnauthorized": false
+    }
+   },
+   "previewLimit": 50,
+   "server": "localhost",
+   "port": 5432,
+   "askForPassword": true,
+   "driver": "PostgreSQL",
+   "name": "clinica_nutricao_heroku",
+   "connectString": "postgres://sbvjjvezaioeoc:152cda5e18d2f19ca06c97caed73738fa63e2101e4687bf2b3f880af816f36f9@ec2-54-147-93-73.compute-1.amazonaws.com:5432/dcpik0mcmvcpir"
+  }
+ ]
+}

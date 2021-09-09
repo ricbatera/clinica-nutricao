@@ -11,56 +11,68 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
   </style>
  <title>Registre-se</title>
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
  <div class="container">
    <section>
-   <img class="img__topo"src="./../../assets/img/home/cnpt_logo.png" alt="cnpt_logo">
- 
-   <h2>Cadastro</h2>
-   <div class="formulario">
-   <form action="" method="post">
-    <div class="nome__completo">
-     <div class="div__nome">
-      <label class="label__form" for="nome">Nome</label><input type="text">
-     </div>
-     <div class="div__sobrenome">
-      <label class="label__form"  for="sobrenome">Sobrenome</label><input type="text">
-     </div>
-   </div>
-    <div>
-     <label class="label__form" for="email">E-mail</label><input type="text">
+    <img class="img__topo"src="./../../assets/img/home/cnpt_logo.png" alt="cnpt_logo">
+    <ul id="mensagens-erro"></ul> <!--erros / implementar -->
+    <h2 id="titulo-form">Cadastro</h2>
+    <div class="formulario">
+      <form action="" method="" id="form-adiciona">
+        <div class="nome__completo">
+          <div class="divisao">
+            <label class="label__form" for="nome">Nome</label>
+            <input id="nome" name="nome" type="text"  class="campo-nome" required>
+          </div>
+          <div class="divisao__dois">
+            <label class="label__form"  for="sobrenome">Sobrenome</label>
+            <input id="sobrenome" name="sobrenome" type="text"  class="campo-sobrenome" required>
+          </div>
+        </div>
+        <div>
+          <label class="label__form" for="email">E-mail</label>
+          <input id="email" name="email" type="email"  class="campo-email" required>
+        </div>
+        <div class="nome__completo">
+          <div class="divisao__um">
+            <label class="label__form" for="telefone">Telefone</label>
+            <input id="telefone" name="telefone" type="tel"  class="campo-telefone" required>
+          </div>
+          <div class="divisao__dois">
+            <label class="label__form" for="documento">CPF ou RNE</label>
+            <input id="documento" name="documento" type="tel"  class="campo-documento" required>
+          </div>
+        </div>
+        <div>
+          <label class="label__form" for="password">Crie uma senha</label>
+          <input id="senha" name="senha" type="password" class="campo-senha" required>
+        </div>
+        <div>
+          <label class="label__form" for="password">Confirme sua senha</label>
+          <input id="senha_confirmacao" name="senha_confirmacao" type="password" class="campo-senha-2" required>
+        </div>
+        <div class="phrase">
+          <p>Ao clicar em confirmar, você autoriza nosso site a coletar seus dados e dos pacientes futuramente cadastrados 
+          para fins de armazenamento e controle interno, respeitando os termos gerais da LGPD de 2020.
+          </p>
+        </div>
+        <div class="button">
+          <button  >Cancelar</button>
+          <button id="enviar-dados" >Confirmar</button>
+          
+        </div>
+      </form>
     </div>
-    <div>
-     <label  class="label__form" for="telefone">Telefone</label><input type="text">
-    </div>
-    <div>
-     <label  class="label__form" for="documento">CPF ou RNE</label><input type="text">
-    </div>
-    <div>
-     <label class="label__form" for="password">Crie uma senha</label><input type="text">
-    </div>
-    <div>
-     <label class="label__form" for="password">Confirme sua senha</label><input type="text">
-    </div>
-    <div class="phase">
-     <p>Ao clicar em confirmar, você autoriza nosso site a coletar seus dados e dos pacientes futuramente cadastrados 
-      para fins de armazenamento e controle interno, respeitando os termos gerais da LGPD de 2020.
-     </p>
-    </div>
-    <div class="button">
-     <button type="disabled">Cancelar</button>
-     <button type="submit">Confirmar</button>
-    </div>
-   </form>
-  </div>
   </section>
 
   <section>  
    <h1>Crie uma conta grátis</h1>
-   <p>Cadastre-se para ter acesso ao sistema de controle de pacientes em tratamento de nutrição</p>
-   <img src="../../assets/img/register/man_computer.png" alt="homem de barba usando computador , uma ilustração colorida">
+   <p class="p__bottom">Cadastre-se para ter acesso ao sistema de controle de pacientes em tratamento de nutrição</p>
+   <img class="img__register" src="../../assets/img/register/man_computer.png" alt="homem de barba usando computador , uma ilustração colorida">
   </section>
 </div>
+<script src="../../js/register.js"></script>
 </body>
 </html>
