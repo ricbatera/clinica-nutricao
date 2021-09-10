@@ -11,9 +11,12 @@
  --font-color-primary: #000000  ;
  --font-color-secondary: #0C2702  ;
  --shadow: 3px 0 4px 4px #000000 ;
- --font-size-h1-h2: 36px ;
+ --font-size-h1-h2: 36px;
+ --font-size-h2: 48px;
+ --font-size-h1-main: 3.5em;
  --font-weight-p: regular ;
  --font-size-p: 18px;
+ --font-color-p: rgba(0, 0, 0, 0.8);
  --bg-navbar-footer: #353A39 ;
  --line-footer: #90FC94;
  --color-font-brand: #C7FDC6;
